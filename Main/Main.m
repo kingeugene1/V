@@ -14,7 +14,7 @@ N_Dof = 3;                                                   % number of degree 
 DoF = N_Dof*NoN;                                      % Total degree of freedom of the system
 Dof_E= N_Dof*NPE;                                    % degree of freedom per element
 
-E=5e10;       
+E=25e9;       
 rhA=3000;
 thick= d1/20;                                                        % Plate thickness
 rhA_data  = rhA* thick;
